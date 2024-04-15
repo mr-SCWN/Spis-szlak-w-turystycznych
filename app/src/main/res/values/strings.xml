@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Spis szlaków turystycznych</string>
+    <string name="author_content">Ścieżki turystyczne 2024\nIvan Kaliadzich 153936\nYana Dubouskaya 153939</string>
+    <string name="title_top">Dzień dobry!</string>
+    <string name="top_text">Aplikacja typu lista-szczegóły była stworzona na zaliczenie przedmiotu Aplikacje Mobilne.</string>
+
+    <string name="cities">Główne miasta:</string>
+    <string name="road">Ścieżka:</string>
+    <string name="save_time">Zapisz czas</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="reset">Reset</string>
+    <string name="home_tab">Główna strona</string>
+    <string name="category1_tab">Łatwe ścieżki</string>
+    <string name="action_share">Podziel się</string>
+    <string name="author_activity_title">O autorach</string>
+    <string name="category2_tab">Cieżkie ścieżki</string>
+    <string name="switch_theme">Zmień motyw</string>
+
+</resources>

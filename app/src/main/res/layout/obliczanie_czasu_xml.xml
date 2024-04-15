@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="16dp" >
+
+    <TextView
+        android:id="@+id/time_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="56sp" />
+
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/time_view"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="8dp"
+        android:layout_toLeftOf="@+id/stop_button"
+        android:backgroundTint="@color/light_green"
+        android:textColor="#000000"
+        android:text="@string/start"
+        app:cornerRadius="10dp" />
+    <Button
+        android:id="@+id/stop_button"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/light_red"
+        android:layout_below="@id/time_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:textColor="#000000"
+        android:text="@string/stop"
+        app:cornerRadius="10dp"/>
+
+    <Button
+        android:id="@+id/reset_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="@color/light_yellow"
+        android:layout_toRightOf="@+id/stop_button"
+        android:layout_below="@id/time_view"
+        android:textColor="#000000"
+        android:layout_marginTop="8dp"
+        android:text="@string/reset"
+        app:cornerRadius="10dp"/>
+
+    <Button
+        android:id="@+id/save_time_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/reset_button"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/light_blue"
+        android:text="@string/save_time"
+        android:textColor="#000000"
+        app:cornerRadius="10dp" />
+
+    <TextView
+        android:id="@+id/saved_time_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/save_time_button"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Zapisany czas: 00:00:00"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</RelativeLayout>
